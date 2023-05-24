@@ -38,10 +38,10 @@
       "navStyle": "stacked",
       "position": "static",
       "itemStyle": "text",
-      "colorStyle": "light",
-      "logoAssetId": "",
+      "colorStyle": "theme",
+      "logoAssetId": "646e08951a94ce5f4b950845",
       "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
+      "showSignIn": false
     }
   },
   "color": "#D6D1F2",
