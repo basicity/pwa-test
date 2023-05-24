@@ -246,7 +246,7 @@
                           "widgetName": "Canvas2",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 132,
+                          "bottomRow": 120,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
@@ -280,7 +280,7 @@
                                   "key": "borderRadius"
                                 }
                               ],
-                              "leftColumn": 36.26006191950464,
+                              "leftColumn": 48,
                               "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                               "key": "68s05yw13j",
                               "image": "{{currentItem.img}}",
@@ -342,7 +342,7 @@
                               "text": "{{currentItem.name}}",
                               "key": "9ksrx1qb52",
                               "isDeprecated": false,
-                              "rightColumn": 36.26006191950464,
+                              "rightColumn": 48,
                               "textAlign": "LEFT",
                               "dynamicHeight": "FIXED",
                               "widgetId": "u4vb3xk8nb",
@@ -697,7 +697,7 @@
               "key": "fkbl7pwuku",
               "orientation": "horizontal",
               "isDeprecated": false,
-              "rightColumn": 35.343283582089555,
+              "rightColumn": 32,
               "widgetId": "tll3gv7mgi",
               "minWidth": 450,
               "isVisible": true,
@@ -743,7 +743,7 @@
               ],
               "animateLoading": true,
               "parentColumnSpace": 13.25,
-              "leftColumn": 35.343283582089555,
+              "leftColumn": 32,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -938,7 +938,7 @@
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 86,
+                  "bottomRow": 85.99999999999994,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -980,7 +980,7 @@
                       "isDisabled": false,
                       "key": "228t6ecciu",
                       "isDeprecated": false,
-                      "rightColumn": 3.9263803680981595,
+                      "rightColumn": 2.2145328719723185,
                       "iconName": "plus",
                       "widgetId": "7665htk8it",
                       "minWidth": 50,
@@ -1013,7 +1013,7 @@
                       "mobileRightColumn": 64,
                       "animateLoading": true,
                       "parentColumnSpace": 11.125,
-                      "leftColumn": 3.9263803680981595,
+                      "leftColumn": 2.2145328719723185,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1027,7 +1027,7 @@
                       "key": "l4ojahvgqx",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 33.96319018404908,
+                      "rightColumn": 33.10726643598616,
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "ndeuf3gc5u",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1055,7 +1055,7 @@
                       "labelWidth": 5,
                       "type": "DATE_PICKER_WIDGET2",
                       "animateLoading": true,
-                      "leftColumn": 33.96319018404908,
+                      "leftColumn": 33.10726643598616,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1195,7 +1195,7 @@
               "isDisabled": false,
               "key": "cn8kqbzsjt",
               "isDeprecated": false,
-              "rightColumn": 11.462686567164178,
+              "rightColumn": 6.541737649063032,
               "menuVariant": "PRIMARY",
               "widgetId": "1soa3b9imx",
               "menuItems": {
