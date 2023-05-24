@@ -31,8 +31,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 4,
-              "bottomRow": 8,
+              "topRow": 0,
+              "bottomRow": 4,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton2": {
@@ -153,6 +153,197 @@
               "mobileLeftColumn": 0,
               "buttonVariant": "PRIMARY",
               "alignment": "start"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "mobileBottomRow": 32,
+              "widgetName": "Tabs1",
+              "borderColor": "#E0DEDE",
+              "isCanvas": true,
+              "displayName": "Tabs",
+              "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+              "topRow": 5.2,
+              "bottomRow": 35.2,
+              "parentRowSpace": 10,
+              "type": "TABS_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "mobileRightColumn": 64,
+              "animateLoading": true,
+              "parentColumnSpace": 18.4375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "tabId": "tab1",
+                  "mobileBottomRow": 150,
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "bottomRow": 260.00000000000006,
+                  "topRow": 0,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 150,
+                  "mobileRightColumn": 64,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [],
+                  "isDisabled": false,
+                  "key": "tv0rd4x0aw",
+                  "isDeprecated": false,
+                  "tabName": "🔍 Search ",
+                  "rightColumn": 64,
+                  "detachFromLayout": true,
+                  "widgetId": "pe16grum5d",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "b4okgrfxhv",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "mobileTopRow": 0,
+                  "responsiveBehavior": "fill",
+                  "mobileLeftColumn": 0,
+                  "flexLayers": []
+                },
+                {
+                  "tabId": "tab2",
+                  "mobileBottomRow": 150,
+                  "widgetName": "Canvas2",
+                  "displayName": "Canvas",
+                  "bottomRow": 260.00000000000006,
+                  "topRow": 0,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 150,
+                  "mobileRightColumn": 64,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [],
+                  "isDisabled": false,
+                  "key": "tv0rd4x0aw",
+                  "isDeprecated": false,
+                  "tabName": "Profile",
+                  "rightColumn": 64,
+                  "detachFromLayout": true,
+                  "widgetId": "kv9ulrwdfn",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "b4okgrfxhv",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "mobileTopRow": 0,
+                  "responsiveBehavior": "fill",
+                  "mobileLeftColumn": 0,
+                  "flexLayers": []
+                },
+                {
+                  "tabId": "tabernuuvsatn",
+                  "mobileBottomRow": 300.00000000000006,
+                  "widgetName": "Canvas3",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 260.00000000000006,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 300.00000000000006,
+                  "mobileRightColumn": 64,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [],
+                  "key": "tv0rd4x0aw",
+                  "isDeprecated": false,
+                  "tabName": "Favourites",
+                  "rightColumn": 64,
+                  "detachFromLayout": true,
+                  "widgetId": "wrpookq37w",
+                  "containerStyle": "none",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "b4okgrfxhv",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "mobileTopRow": 0,
+                  "responsiveBehavior": "fill",
+                  "mobileLeftColumn": 0,
+                  "flexLayers": []
+                }
+              ],
+              "borderWidth": 1,
+              "key": "sgvasjo6b5",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "b4okgrfxhv",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "defaultTab": "",
+              "shouldShowTabs": true,
+              "minWidth": 450,
+              "tabsObj": {
+                "tab1": {
+                  "label": "🔍 Search ",
+                  "id": "tab1",
+                  "widgetId": "pe16grum5d",
+                  "isVisible": true,
+                  "index": 0,
+                  "positioning": "vertical"
+                },
+                "tab2": {
+                  "label": "Profile",
+                  "id": "tab2",
+                  "widgetId": "kv9ulrwdfn",
+                  "isVisible": true,
+                  "index": 1,
+                  "positioning": "vertical"
+                },
+                "tabernuuvsatn": {
+                  "id": "tabernuuvsatn",
+                  "index": 2,
+                  "label": "Favourites",
+                  "widgetId": "wrpookq37w",
+                  "isVisible": true
+                }
+              },
+              "isVisible": true,
+              "version": 3,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 17,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 0,
+              "maxDynamicHeight": 9000,
+              "alignment": "start",
+              "minDynamicHeight": 15
             }
           ],
           "positioning": "vertical",
@@ -171,6 +362,14 @@
               "children": [
                 {
                   "id": "26f5rngfzf",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "b4okgrfxhv",
                   "align": "start"
                 }
               ]
