@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Zoeken",
+    "slug": "zoeken",
     "layouts": [
       {
         "viewMode": false,
@@ -9,7 +9,7 @@
           "mobileBottomRow": 1292,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 660,
+          "bottomRow": 1292,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -279,7 +279,7 @@
                                   "key": "borderRadius"
                                 }
                               ],
-                              "leftColumn": 36.765957446808514,
+                              "leftColumn": 48,
                               "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                               "key": "68s05yw13j",
                               "image": "{{currentItem.img}}",
@@ -341,7 +341,7 @@
                               "text": "{{currentItem.name}}",
                               "key": "9ksrx1qb52",
                               "isDeprecated": false,
-                              "rightColumn": 36.765957446808514,
+                              "rightColumn": 48,
                               "textAlign": "LEFT",
                               "dynamicHeight": "FIXED",
                               "widgetId": "u4vb3xk8nb",
@@ -824,14 +824,15 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Zoeken",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "646dff4f39a1071358fca4ff_646dff4f39a1071358fca501"

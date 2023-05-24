@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Zoeken",
       "isDefault": true
+    },
+    {
+      "id": "Profiel",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -18,15 +22,26 @@
       "navStyle": "stacked",
       "position": "static",
       "itemStyle": "text",
-      "colorStyle": "light",
-      "logoAssetId": "",
+      "colorStyle": "theme",
+      "logoAssetId": "646e08951a94ce5f4b950845",
       "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
+      "showSignIn": false
     }
   },
   "publishedApplicationDetail": {
     "appPositioning": {
       "type": "AUTO"
+    },
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "top",
+      "navStyle": "stacked",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
     }
   },
   "color": "#D6D1F2",
