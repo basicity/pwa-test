@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Profiel",
-    "slug": "profiel",
+    "name": "Profile",
+    "slug": "profile",
     "layouts": [
       {
         "viewMode": false,
@@ -32,7 +32,7 @@
         },
         "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Profiel",
+        "id": "Profile",
         "deleted": false,
         "policies": [],
         "userPermissions": []

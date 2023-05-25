@@ -1,11 +1,11 @@
 {
   "pages": [
     {
-      "id": "Zoeken",
+      "id": "🔍 Search ",
       "isDefault": true
     },
     {
-      "id": "Profiel",
+      "id": "Profile",
       "isDefault": false
     }
   ],
